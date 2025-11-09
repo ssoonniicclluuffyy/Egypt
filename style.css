@@ -1,0 +1,23 @@
+h1:hover{
+    color: blue;
+}
+p::first-letter{
+    font-size: 200%;
+    color: aquamarine;
+}
+.box hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black 
+}
+.box active {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.input focus {
+    border-color: blue;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5);
+}
+a :visited {
+    color: purple; 
+
+}
